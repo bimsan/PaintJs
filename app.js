@@ -69,7 +69,7 @@ function handleModeClick() {
 }
 
 function handleCM(event) {
-  console.log(event);
+  event.preventDefault();
 }
 
 function handleSaveClick() {
